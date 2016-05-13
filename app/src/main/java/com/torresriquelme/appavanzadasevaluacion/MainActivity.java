@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private AdView adView;
     private static final String TAG = "AppAvan";
 
+    //Actualizacion
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
