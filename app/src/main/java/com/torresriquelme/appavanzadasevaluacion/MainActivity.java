@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private AdView adView;
     private static final String TAG = "AppAvan";
 
-    //Actualizacion
+    //Proyecto final de Curso 12 Next University
+    //Desarrollado por torresriquelme
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Adición de los avisos publicitarios
         adView = (AdView)this.findViewById(R.id.aviso);
         AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
         adView.loadAd(adRequest);
